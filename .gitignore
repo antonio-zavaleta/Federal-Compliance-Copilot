@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / C extensions
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.env
+.venv
+venv/
+ENV/
+env/
+
+# Poetry
+.poetry-cache/
+# Note: poetry.lock ensures deterministic builds.
+# It's often committed in team projects, but can be ignored for solo work.
+# poetry.lock
+
+# IDE / Editor configuration
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs & Data
+*.log
+data/
+
+# Secrets & Credentials - NEVER commit these
+*.env
+credentials.json
+aws_keys.pem
+*.pem
