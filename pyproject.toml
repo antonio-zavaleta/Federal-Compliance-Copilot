@@ -9,6 +9,7 @@ license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "boto3 (>=1.39.4,<2.0.0)"
 ]
 
 
